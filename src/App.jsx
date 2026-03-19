@@ -2,10 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Report from './pages/Report'
 import Dashboard from './pages/Dashboard'
+import Navbar from './components/navbar'
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/report" element={<Report />} />
