@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Report from './pages/Report'
 import Dashboard from './pages/Dashboard'
 import Navbar from './components/navbar'
+import Footer from "./components/footer";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/report" element={<Report />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

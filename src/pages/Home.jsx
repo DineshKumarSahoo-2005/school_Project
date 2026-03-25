@@ -10,8 +10,16 @@
 //   )
 // }
 
-import Hero from "../components/hero";
+import Hero from "../components/Hero";
+import Features from "../components/features";
+import HowItWorks from "../components/howItWorks";
 
 export default function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <Features />
+      <HowItWorks />
+    </>
+  );
 }
