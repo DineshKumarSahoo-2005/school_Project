@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import crimeImg from "../assets/crime.jpg";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center h-[80vh] text-center px-4">
+    <div className="relative z-10 flex flex-col items-center justify-center h-[80vh] text-center px-4">
       <h1 className="text-4xl md:text-5xl font-bold mb-4">
         Anonymous Crime Reporting
       </h1>
