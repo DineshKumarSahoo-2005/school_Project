@@ -1,6 +1,6 @@
-import Hero from "../components/Hero";
-import Features from "../components/Features";
-import HowItWorks from "../components/HowItWorks";
+import Hero from "../components/hero";
+import Features from "../components/features";
+import HowItWorks from "../components/howItWorks";
 
 export default function Home({ isLoggedIn,setShowRegister, setRedirectAfterLogin }) {
   return (
